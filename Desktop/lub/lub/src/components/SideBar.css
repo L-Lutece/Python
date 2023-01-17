@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,700&family=Outfit:wght@400;700&display=swap');
+
+* {
+    font-family: 'Epilogue', sans-serif;
+}
+
+
 .SideBar {
     position: fixed;
     width: 60px;
@@ -7,4 +14,13 @@
     display: grid;
     z-index: 10000;
     top: 50px;
+    left: 3px;
+}
+
+@media (max-width: 425px) {
+    .SideBar {
+        position: absolute;
+        display: none;
+        width: 1px;
+    }
 }

@@ -28,9 +28,3 @@ a:hover {
     color: rgb(254, 255, 255);
     background-color:  rgb(60, 57, 57); 
 }
-
-@media (max-width: 425px) {
-    .Header {
-        font-size: 10px;
-    }
-}

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,700&family=Outfit:wght@400;700&display=swap');
+
+* {
+    font-family: 'Epilogue', sans-serif;
+}
+
 .App {
     background-color: rgb(32, 32, 32);
     height: 100%;
@@ -5,13 +11,193 @@
     overflow-y: hidden;
 }
 
-.section2 {
+.sectionProject {
     position: relative;
-    width: 90%;
+    width: 1368px;
     height: 800px;
     background-color: rgb(42, 40, 40);
     justify-content: center;
     align-items: center;
-    top: 50px;
     left: 70px;
+}
+
+.P1:hover .icons {
+    display: block;
+    top: 40px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(60, 57, 57);
+    opacity: 0.9;
+    transition: 3s;
+}
+
+
+.P2:hover .icons {
+    display: block;
+    top: 40px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(60, 57, 57);
+    opacity: 0.9;
+    transition: 3s;
+}
+
+.icons1 {
+    font-size: 40px;
+    top: 40px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(60, 57, 57);
+}
+
+
+.icons {
+    top: 40px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(60, 57, 57);
+    display: none;
+}
+
+
+
+
+.title {
+    height: auto;
+    font-size: 25px;
+    background-color: rgb(60, 57, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(155, 152, 152);
+    padding: 20px;
+}
+
+.PAll {
+    position: relative;
+    top: 45px;
+    justify-content: center;
+}
+
+.P1 {
+    float: left;
+    width: 26%;
+    height: 220px;
+    background-image: url(../images/jssf.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    margin: 40px 40px 0px 55px;
+    border-radius: 11px;
+}
+
+.P2 {
+    float: left;
+    width: 26%;
+    height: 220px;
+    background-image: url(../images/rest.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    margin: 40px 40px 0px 55px;
+    border-radius: 11px;
+}
+
+.P3, .P4, .P5, .P6 {
+    float: left;
+    width: 26%;
+    height: 220px;
+    background: rgb(60, 57, 57);
+    image-rendering: auto;
+    image-resolution: no-repeat;
+    margin: 40px 40px 0px 55px;
+    border-radius: 11px;
+}
+
+.titleP1 {
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(180, 180, 180);
+    display: flex;
+    background-color: rgb(60, 57, 57);
+}
+
+.titleP {
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(180, 180, 180);
+    display: flex;
+    background-color: rgb(60, 57, 57);
+}
+
+@media (max-width: 425px) {
+
+    .sectionProject {
+        position: relative;
+        width: 100%;
+        height: 575px;
+        background-color: rgb(42, 40, 40);
+        left: 0px;
+    }
+
+    
+    .icons {
+        top: 40px;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(60, 57, 57);
+        display: block;
+    }
+
+    .PAll {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+    }
+    
+    .P1 {
+        position: relative;
+        width: 100%;
+        left: -55px;
+        top: -20px;
+        height: 220px;
+        background-image: url(../images/jssf.jpg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: center;
+        border-radius: 2px;
+    }
+
+    .P2 {
+        position: relative;
+        width: 100%;
+        left: -55px;
+        top: -35px;
+        height: -100px;
+        background-image: url(../images/rest.jpg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: center;
+        border-radius: 2px;
+    }
+
+    .P3, .P4, .P5, .P6 {
+        float: left;
+        width: 26%;
+        height: 220px;
+        background: rgb(60, 57, 57);
+        image-rendering: auto;
+        image-resolution: no-repeat;
+        margin: 40px 40px 0px 55px;
+        border-radius: 11px;
+        display: none;
+    }
 }

@@ -1,31 +1,62 @@
 import React from "react";
 import './Stack.css';
-import prog from '../images/Prog.jpeg';
+import { DiMysql, DiSass, DiLess, DiPython} from "react-icons/di";
+import { DiTerminal, DiReact, DiCss3, DiJavascript1, DiNodejsSmall, DiBootstrap, DiKrakenjsBadge, DiVisualstudio} from "react-icons/di";
+import { DiHtml5, DiGit, DiGithubBadge, DiNpm, DiJqueryLogo} from "react-icons/di";
 
 function Stack() {
-    return (
-        <div className="container">
-            <div className="App">
-                <div className="section1" id="stack">
-                    <h3 class="title">STACK</h3>
-                    <div className="textArea">
-                        <div className="textStar">
-                            <p>Nessa sessão vai ter todas as tecnologias que conheço e também o nível de conhecimento, sendo no <b>básico</b> as tecnologias que eu ainda não aprofundei ou tive pouca interação. No nível <b>intermediário</b> tecnologias que eu já usei bastante, mas que ainda realizo várias consultas para desenvolver algo. No nível <b>Avançado</b> são as que eu utilizo sempre para diversas coisas. </p>
-                        </div>
-                        <div className="img1">
-                        </div>
-                    </div>
 
-                    <div className="starFather">
+    return (
+        <div className="containerStack">
+            <div className="App">
+                <div className="sectionStack" id="stack">
+                    <h3 className="title">STACK</h3>
+                    <div className="fManager">
+                        <div className="fContainer">
+                            <div className="stackTextArea">
+                                <div className="stackText">
+                                    <h4>Básico</h4>
+                                    <p>Aqui são tecnologias que conheci brevemente e tive pouco contato.</p>
+                                </div>
+                                <div className="stackTextS">
+                                    <h4>Avançado</h4>
+                                    <p>Tecnologias que tenho um conhecimento otimo, e sempre faço uso em meus projetos.</p>
+                                </div>
+                            </div>
+                            <div className="fBlock">
+                                <DiMysql color="blue" title="MySql" fontSize={100} id="icon"/>
+                                <DiSass color="pink" title="Sass" fontSize={100} id="icon"/>
+                                <DiLess color="blue" title="Less" fontSize={100} id="icon"/>
+                                <DiPython color="yellow" title="Python" fontSize={100} id="icon"/>
+                            </div>
+                            <div className="sBlock">
+                                <DiHtml5 color="#f56008" title="Html" fontSize={100} id="icon"/>
+                                <DiGit color="#f56008" title="Git" fontSize={100} id="icon"/>
+                                <DiGithubBadge color="black" title="Github" fontSize={100} id="icon"/>
+                                <DiNpm color="#be2f3c" title="NPM" fontSize={100} id="icon"/>
+                                <DiJqueryLogo color="#307cc6" title="jQuery" fontSize={100} id="icon"/>
+                            </div>
+                        </div>
                         
-                        <div className="star1">
-                            <h4>Básico</h4>
-                        </div>
-                        <div className="star2">
-                            <h4>Intermediário</h4>
-                        </div>
-                        <div className="star3">
-                            <h4>Avançado</h4>
+                    </div>
+                    <div className="fManager">
+                        <div className="sContainer">
+                            <div className="stackTextAreaS">
+                                <div className="stackTextT">
+                                    <h4>Intermediário</h4>
+                                    <p>São tecnologias que uso bastante e tenho um conhecimento OK, mas realizo consultas para usar.</p>
+                                </div>
+                            </div>
+                            <div className="tBlock">
+                                <DiTerminal color="black" title="CMD" fontSize={100} id="icon"/>
+                                <DiReact color="#a6d6ff" title="React.js" fontSize={100} id="icon"/>
+                                <DiCss3 color="blue" title="Css" fontSize={100} id="icon"/>
+                                <DiJavascript1 color="yellow" title="JavaScript" fontSize={100} id="icon"/>
+                                <DiNodejsSmall color="green" title="Node.js" fontSize={100} id="icon"/>
+                                <DiBootstrap color="#8f12c3" title="Bootstrap" fontSize={100} id="icon"/>
+                                <DiKrakenjsBadge color="#2285da" title="Git Kraken" fontSize={100} id="icon"/>
+                                <DiVisualstudio color="blue" title="VisualStudio" fontSize={100} id="icon"/>
+                            </div>
                         </div>
                     </div>
                 </div>

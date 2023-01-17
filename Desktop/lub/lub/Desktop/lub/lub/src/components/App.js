@@ -5,11 +5,11 @@ import logo from '../images/logo_transparent.png';
 
 function App() {
   return (
-    <div clasName="containerApp">
+    <div clasName="container">
       <div className="App">
-        <div className="sectionApp">
-          <h3 className="name">Lucas Carrilho</h3>
-          <p className="description">Desenvolvedor Front-End</p> 
+        <div className="section">
+          <h3 class="name">Lucas Carrilho</h3>
+          <p class="description">Desenvolvedor Front-End</p> 
           <div className='logo'>
           </div>
         </div>
